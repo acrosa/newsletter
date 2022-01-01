@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts.tsx?browser", "../../../app/routes/posts.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts.tsx\";", "import { Outlet } from \"remix\";\n\nexport default function Posts() {\n  return (\n    <div>\n      <h1>Posts!</h1>\n      <main>\n        <Outlet />\n      </main>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,oCAAC,OAAD,MACE,oCAAC,MAAD,MAAI,WACJ,oCAAC,QAAD,MACE,oCAAC,gCAAD;AAAA;",
+  "names": []
+}

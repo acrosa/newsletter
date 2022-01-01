@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts/json.tsx?browser"],
+  "sourcesContent": ["export * from \"/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts/json.tsx\";"],
+  "mappings": ";;;;;AAAA;",
+  "names": []
+}

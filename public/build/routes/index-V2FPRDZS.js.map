@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/index.tsx\";", "import { Link } from \"remix\";\n\nexport default function Index() {\n  return (\n    <div className=\"bg-white\">\n      <div className=\"max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8\">\n        <div className=\"text-center\">\n          <h2 className=\"text-base font-semibold text-indigo-600 tracking-wide uppercase\">\n            Pricing\n          </h2>\n          <p className=\"mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl\">\n            Take control of your team (?)\n          </p>\n          <p className=\"max-w-xl mt-5 mx-auto text-xl text-gray-500\">\n            Start building for free, then add a site plan to go live. Account\n            plans unlock additional features..\n          </p>\n          <Link to={\"/posts\"} />\n        </div>\n      </div>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAC9B,SACE,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACb,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACb,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACb,oCAAC,MAAD;AAAA,IAAI,WAAU;AAAA,KAAkE,YAGhF,oCAAC,KAAD;AAAA,IAAG,WAAU;AAAA,KAAuF,kCAGpG,oCAAC,KAAD;AAAA,IAAG,WAAU;AAAA,KAA8C,yGAI3D,oCAAC,MAAD;AAAA,IAAM,IAAI;AAAA;AAAA;",
+  "names": []
+}

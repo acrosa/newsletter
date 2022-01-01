@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts.tsx?browser", "../../../app/routes/posts.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts.tsx\";", "import { Outlet } from \"remix\";\n\nexport default function Posts() {}\n"],
+  "mappings": ";;;;;AAAA;;;ACAA;AAEe,iBAAiB;AAAA;",
+  "names": []
+}

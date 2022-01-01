@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts/index.tsx?browser", "../../../../app/routes/posts/index.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts/index.tsx\";", "import { useLoaderData } from \"remix\";\n\nexport const loader = () => {\n  const posts: Post[] = [\n    {\n      slug: \"first-post\",\n      title: \"First post\",\n    },\n    {\n      slug: \"second-post\",\n      title: \"Second post\",\n    },\n  ];\n  return posts;\n};\n\nexport type Post = {\n  slug: string;\n  title: string;\n};\n\nexport default function Posts() {\n  const posts: Post[] = useLoaderData();\n  console.log(posts);\n\n  return (\n    <div>\n      <h1>Posts</h1>\n      {posts.map((post) => (\n        <div>{post.title}</div>\n      ))}\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;AAAA;;;ACAA;AAqBe,iBAAiB;AAC9B,QAAM,QAAgB;AACtB,UAAQ,IAAI;AAEZ,SACE,oCAAC,OAAD,MACE,oCAAC,MAAD,MAAI,UACH,MAAM,IAAI,CAAC,SACV,oCAAC,OAAD,MAAM,KAAK;AAAA;",
+  "names": []
+}

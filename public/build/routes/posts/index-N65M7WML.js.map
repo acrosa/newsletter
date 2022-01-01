@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts/index.tsx?browser", "../../../../app/routes/posts/index.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts/index.tsx\";", "import { Link, useLoaderData, LoaderFunction } from \"remix\";\nimport { getPosts } from \"~/post\";\nimport type { Post } from \"~/post\";\n\nexport const loader: LoaderFunction = () => {\n  return getPosts();\n};\n\nexport default function Posts() {\n  const posts: Post[] = useLoaderData();\n  console.log(posts);\n  s;\n\n  return (\n    <div className=\"p-10\">\n      <h1 className=\"text-3xl font-normal leading-normal mt-0 mb-2\">Posts</h1>\n      {posts.map((post) => (\n        <div key={post.slug}>\n          <Link to={post.slug}>{post.title}</Link>\n        </div>\n      ))}\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;AAAA;;;ACAA;AAQe,iBAAiB;AAC9B,QAAM,QAAgB;AACtB,UAAQ,IAAI;AACZ;AAEA,SACE,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KACb,oCAAC,MAAD;AAAA,IAAI,WAAU;AAAA,KAAgD,UAC7D,MAAM,IAAI,CAAC,SACV,oCAAC,OAAD;AAAA,IAAK,KAAK,KAAK;AAAA,KACb,oCAAC,MAAD;AAAA,IAAM,IAAI,KAAK;AAAA,KAAO,KAAK;AAAA;",
+  "names": []
+}

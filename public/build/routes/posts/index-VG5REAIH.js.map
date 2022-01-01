@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts/index.tsx?browser", "../../../../app/routes/posts/index.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts/index.tsx\";", "import { useLoaderData } from \"remix\";\n\nexport const loader = () => {\n  return [\n    {\n      slug: \"first-post\",\n      title: \"First post\",\n    },\n    {\n      slug: \"second-post\",\n      title: \"Second post\",\n    },\n  ];\n};\n\nexport default function Posts() {\n  const posts = useLoaderData();\n  return <div></div>;\n}\n"],
+  "mappings": ";;;;;;;AAAA;;;ACAA;AAee,iBAAiB;AAC9B,QAAM,QAAQ;AACd,SAAO,oCAAC,OAAD;AAAA;",
+  "names": []
+}

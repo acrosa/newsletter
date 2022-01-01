@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts/$slug.tsx?browser", "../../../../app/routes/posts/$slug.tsx"],
+  "sourcesContent": ["export { default } from \"/Users/alejandrocrosa/Desktop/projects/aleph-blog/app/routes/posts/$slug.tsx\";", "import { LoaderFunction, useLoaderData } from \"remix\";\nimport { getPost, getPosts, Post } from \"~/lib/post\";\n\nexport const loader: LoaderFunction = ({ params }) => {\n  const post = getPost(params.slug);\n  console.log(\"post found: \" + JSON.stringify(post));\n  if (post == undefined) {\n    throw new Response(\"Not Found\", {\n      status: 404,\n    });\n  } else {\n    return post;\n  }\n};\n\nexport default function Post() {\n  const post: Post = useLoaderData();\n\n  return (\n    <div>\n      <div>{post.slug}</div>\n      <div>{post.title}</div>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAee,gBAAgB;AAC7B,QAAM,OAAa;AAEnB,SACE,oCAAC,OAAD,MACE,oCAAC,OAAD,MAAM,KAAK,OACX,oCAAC,OAAD,MAAM,KAAK;AAAA;",
+  "names": []
+}
