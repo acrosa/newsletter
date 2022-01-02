@@ -24,7 +24,11 @@ export const loader: LoaderFunction = async () => {
 
 export const meta: MetaFunction = () => {
   const date = JSON.stringify(Date());
-  return { title: "Newsletter", updated: date };
+  return {
+    title: "Newsletter",
+    updated: date,
+    description: "Un newsletter de metacrosa",
+  };
 };
 
 export const headers: HeadersFunction = () => {
