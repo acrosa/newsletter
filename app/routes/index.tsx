@@ -40,7 +40,7 @@ export default function Index() {
 
   return (
     <div className="max-w-3xl mx-auto">
-      <div className="py-16 px-4">
+      <div className="py-16 px-6">
         <div className="flex items-center">
           <img src={hero} className="pb-4" title="Newsletter de @metacrosa" />
         </div>
