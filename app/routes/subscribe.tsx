@@ -7,14 +7,18 @@ export function SubscribeBox() {
             <h2 className="text-2xl font-extrabold tracking-tight sm:text-3xl pb-4">
               Queres recibir las notas en tu correo?
             </h2>
-            <form className="sm:flex" action="https://tinyletter.com/metacrosa">
+            <form
+              className="sm:flex"
+              action="https://tinyletter.com/metacrosa"
+              method="post"
+            >
               <label htmlFor="email-address" className="sr-only">
                 Email address
               </label>
               <input
-                id="email-address"
-                name="email-address"
-                type="email"
+                type="text"
+                name="email"
+                id="tlemail"
                 autoComplete="email"
                 required
                 className="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none ring-2 focus:ring-offset-2 focus:ring-offset-gray-700 ring-offset-gray-800 focus:ring-white rounded-md"
