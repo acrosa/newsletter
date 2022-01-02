@@ -42,7 +42,13 @@ export default function Index() {
     <div className="max-w-3xl mx-auto">
       <div className="py-16 px-6">
         <div className="flex items-center">
-          <img src={hero} className="pb-4" title="Newsletter de @metacrosa" />
+          <img
+            src={hero}
+            className="pb-4"
+            height={"100%"}
+            width={"100%"}
+            title="Newsletter de @metacrosa"
+          />
         </div>
         <div className="text-center flex">
           <div className="w-full">
