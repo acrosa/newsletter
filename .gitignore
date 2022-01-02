@@ -1,3 +1,89 @@
 
+Home
+Explore
+Help
+Register
+Sign In
+[mirror/remix-project]
+mirror
+/
+remix-project
+mirror of https://github.com/ethereum/remix-project.git
+Watch
+2
+Star
+0
+Fork
+0
+Code
+Issues
+Releases
+Wiki
+Activity
+remix-project mirror
+12383 Commits
+272 Branches
+72 Tags
+155 MiB
+remix-project/.gitignore
+54 lines
+628 B
+Raw
+Blame
+History
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+build
+dist
+node_modules
+lint.xml
+reports/*
+babelify-src
+docs/_build
 .DS_Store
-note_modules
+.tern-port
+TODO
+soljson.js
+*~
+
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+lerna-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+Powered by Gitea Version: 1.15.4 Page: 51ms Template: 10ms
+Licenses API Website Go1.16.9
