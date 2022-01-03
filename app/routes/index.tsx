@@ -16,9 +16,6 @@ export const loader: LoaderFunction = async () => {
   const site = await getSite({ path: envSitePath });
   return json({
     site: site,
-    // headers: {
-    //   "Cache-Control": "public, max-age=300, stale-while-revalidate=600",
-    // },
   });
 };
 
