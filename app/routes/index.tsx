@@ -23,11 +23,10 @@ export const loader: LoaderFunction = async () => {
 };
 
 export const meta: MetaFunction = () => {
-  const date = JSON.stringify(Date());
   return {
     title: "Newsletter",
-    updated: date,
-    description: "Un newsletter de metacrosa",
+    description: "Newsletter de @metacrosa",
+    "og:image": `https://newsletter.alejandrocrosa.com/${hero}`,
   };
 };
 
