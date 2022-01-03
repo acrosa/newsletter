@@ -4,6 +4,10 @@
 
 .note {
   text-align: left;
+  word-break: break-word;
+}
+.note a {
+  text-decoration: underline;
 }
 h1 {
   font-size: 3rem;
@@ -36,8 +40,30 @@ h6 {
   font-weight: 800;
   word-break: normal;
   letter-spacing: -0.025em;
-  padding: 1rem 0;
+  padding: 1rem 0 0 0;
+}
+.note h1 a,
+.note h2 a,
+.note h3 a,
+.note h4 a,
+.note h5 a,
+.note h6 a {
+  text-decoration: none;
 }
 .note img {
   padding: 1rem 0;
+}
+.note p {
+  margin: 1rem 0;
+}
+blockquote {
+  padding-left: 1rem;
+  border-left: 3px solid #ddd;
+}
+ul {
+  margin: 1rem 0;
+}
+ul li {
+  list-style-type: disc;
+  margin: 0 1rem;
 }
