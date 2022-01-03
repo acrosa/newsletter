@@ -2,9 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-.note h1 {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  font-weight: 700;
-  color: red;
+.note {
+  text-align: left;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+h3 {
+  font-size: 2rem;
+  line-height: 1.8rem;
+}
+h4 {
+  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  word-break: normal;
+  letter-spacing: -0.025em;
+  padding: 1rem 0;
+}
+.note img {
+  padding: 1rem 0;
 }
