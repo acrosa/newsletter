@@ -22,11 +22,16 @@ export const loader: LoaderFunction = async () => {
   });
 };
 
-export const meta: MetaFunction = () => {
+export const meta: MetaFunction = ({ data }) => {
   return {
     title: "Newsletter",
-    description: "Newsletter de @metacrosa",
+    description: data.site.site.name,
     "og:image": `https://newsletter.alejandrocrosa.com/${hero}`,
+    "twitter:card": "Newsletter de @metacrosa",
+    "twitter:title": data.site.site.name,
+    "twitter:description": data.site.site.headline,
+    "twitter:site": "@metacrosa",
+    "twitter:creator": "@metacrosa",
   };
 };
 

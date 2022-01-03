@@ -1,14 +1,4 @@
 import { Outlet } from "react-router";
-import { MetaFunction } from "remix";
-import hero from "../../public/images/hero.jpeg";
-
-export const meta: MetaFunction = () => {
-  return {
-    title: "Newsletter",
-    description: "Newsletter de @metacrosa",
-    "og:image": `https://newsletter.alejandrocrosa.com/${hero}`,
-  };
-};
 
 export default function Emails() {
   return (
